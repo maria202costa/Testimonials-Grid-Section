@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+}
+
+.container-div {
+  width: 1160px;
+  margin-right: 140px;
+  margin-left: 140px;
+  position: relative;
+}
+
+/*First Div*/
+.div1 {
+  margin-top: 180px;
+  display: flex;
+  width: 850px;
+  gap: 20px;
+}
+
+/*Daniel´s Testimonial*/
+.Daniel-test {
+  width: 70%;
+  border-radius: 6px;
+  background-color: hsl(263, 55%, 52%);
+  height: 290px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Daniel-profile {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 25px 30px 15px 30px;
+}
+.Daniel-profile img {
+  border-radius: 100%;
+  border: hsl(264, 82%, 80%) 2px solid;
+  height: 40px;
+  width: 40px;
+}
+.Daniel-profile small {
+  color: hsl(260, 100%, 95%);
+  margin-left: 15px;
+  font-weight: 500;
+}
+.Daniel-testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 30px 0 30px;
+}
+.Daniel-testimonial .title {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+.Daniel-testimonial .text {
+  color: hsl(260, 100%, 95%);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*Jonathan´s Testimonial*/
+.Jonathan-test {
+  width: 30%;
+  border-radius: 6px;
+  height: 290px;
+  background-color: hsl(217, 19%, 35%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Jonathan-profile {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 25px 0 20px 30px;
+}
+.Jonathan-profile img {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: hsl(0, 0%, 81%) 2px solid;
+}
+.Jonathan-profile small {
+  color: hsl(0, 0%, 81%);
+  margin-left: 15px;
+  font-weight: 500;
+}
+.Jonathan-testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 30px 0 30px;
+}
+.Jonathan-testimonial .title {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+.Jonathan-testimonial .text {
+  color: hsl(0, 0%, 81%);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/*2nd Div*/
+.div2 {
+  margin-top: 30px;
+  display: flex;
+  width: 850px;
+  gap: 30px;
+  margin-bottom: 180px;
+}
+
+/*Jeanette's Testimonial*/
+.Jeanette-test {
+  width: 30%;
+  border-radius: 6px;
+  height: 280px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Jeanette-profile {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 25px 0 20px 30px;
+}
+.Jeanette-profile img {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+.Jeanette-profile small {
+  color: hsl(224, 10%, 45%);
+  margin-left: 15px;
+  font-weight: 500;
+}
+.Jeanette-testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 30px 0 30px;
+}
+.Jeanette-testimonial .title {
+  color: hsl(224, 10%, 45%);
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+.Jeanette-testimonial .text {
+  font-size: 13px;
+  font-weight: 500;
+  color: hsl(224, 10%, 45%);
+}
+
+/*Patrick's Testimonial*/
+.Patrick-test {
+  width: 70%;
+  border-radius: 6px;
+  height: 280px;
+  background-color: hsl(219, 29%, 14%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Patrick-profile {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 25px 0 20px 30px;
+}
+.Patrick-profile img {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid hsl(263, 55%, 52%);
+}
+.Patrick-profile small {
+  margin-left: 15px;
+  font-weight: 500;
+  color: hsl(0, 0%, 81%);
+}
+.Patrick-testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 30px 0 30px;
+}
+.Patrick-testimonial .title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 81%);
+}
+.Patrick-testimonial .text {
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(0, 0%, 81%);
+}
+
+/*Kira's Testimonial*/
+.div3 {
+  position: absolute;
+  width: 255px;
+  height: 600px;
+  transform: translate(880px, -780px);
+}
+
+.Kira-test {
+  width: 100%;
+  border-radius: 6px;
+  height: 100%;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Kira-profile {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 25px 0 20px 30px;
+}
+.Kira-profile img {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+.Kira-profile small {
+  color: hsl(217, 19%, 35%);
+  margin-left: 15px;
+  font-weight: 500;
+}
+.Kira-testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 30px 0 30px;
+}
+.Kira-testimonial .title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: hsl(217, 19%, 35%);
+}
+.Kira-testimonial .text {
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(224, 10%, 45%);
+}
