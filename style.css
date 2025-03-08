@@ -160,6 +160,9 @@ body {
   font-size: 1.35rem;
   font-weight: 600;
 }
+.Jeanette-testimonial .title2 {
+  display: none;
+}
 .Jeanette-testimonial .text {
   font-size: 13px;
   font-weight: 500;
@@ -258,4 +261,133 @@ body {
   font-size: 14px;
   font-weight: 500;
   color: hsl(224, 10%, 45%);
+}
+
+/*Mobile Version*/
+@media (max-width: 376px) {
+  body {
+    width: 375px;
+    height: 1050px;
+  }
+  .container-div {
+    width: 780px;
+    margin-top: 110px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .div1 {
+    margin-top: 0;
+    display: grid;
+    gap: 60px;
+  }
+  .div2 {
+    margin-top: 60px;
+    display: grid;
+    margin-bottom: 30px;
+    gap: 60px;
+  }
+  .div3 {
+    transform: none;
+    width: 780px;
+    height: 1310px;
+    margin-top: 30px;
+  }
+
+  .Daniel-test,
+  .Jonathan-test,
+  .Jeanette-test,
+  .Patrick-test {
+    width: 780px;
+    height: max-content;
+    border-radius: 15px;
+    padding-bottom: 40px;
+  }
+  .Daniel-profile,
+  .Jonathan-profile,
+  .Jeanette-profile,
+  .Patrick-profile {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding-left: 80px;
+  }
+  .Daniel-profile img,
+  .Jonathan-profile img,
+  .Jeanette-profile img,
+  .Patrick-profile img {
+    width: 80px;
+    height: 80px;
+  }
+  .Daniel-profile small,
+  .Jonathan-profile small,
+  .Jeanette-profile small,
+  .Patrick-profile small {
+    font-size: 30px;
+  }
+  .Daniel-testimonial,
+  .Jonathan-testimonial,
+  .Jeanette-testimonial,
+  .Patrick-testimonial {
+    padding: 30px 75px 30px 75px;
+    gap: 30px;
+  }
+  .Daniel-testimonial .text,
+  .Jonathan-testimonial .text,
+  .Jeanette-testimonial .text {
+    font-size: 33.9px;
+    line-height: 45px;
+  }
+  .Daniel-testimonial .title {
+    font-size: 55px;
+  }
+  .Jonathan-testimonial .title {
+    font-size: 53px;
+  }
+  .Jeanette-testimonial .title {
+    display: none;
+  }
+  .Jeanette-testimonial .title2 {
+    display: flex;
+    font-size: 53px;
+    color: hsl(224, 10%, 45%);
+    font-weight: 600;
+  }
+  .Patrick-testimonial .title {
+    font-size: 55px;
+  }
+  .Patrick-testimonial .text {
+    font-size: 34px;
+  }
+
+  .Kira-test {
+    width: 780px;
+    height: 1200px;
+    border-radius: 15px;
+    padding-bottom: 40px;
+  }
+  .Kira-profile {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 80px;
+  }
+  .Kira-profile img {
+    width: 80px;
+    height: 80px;
+  }
+  .Kira-profile small {
+    font-size: 30px;
+  }
+  .Kira-testimonial {
+    padding: 30px 75px 30px 75px;
+    gap: 30px;
+  }
+  .Kira-testimonial .title {
+    font-size: 55px;
+  }
+  .Kira-testimonial .text {
+    font-size: 34px;
+  }
 }
