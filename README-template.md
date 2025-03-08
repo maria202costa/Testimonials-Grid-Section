@@ -4,8 +4,8 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/maria202costa/Testimonials-Grid-Section](https://github.com/maria202costa/Testimonials-Grid-Section)
+- Live Site URL: [https://testimonials-grid-section-azure.vercel.app/](https://testimonials-grid-section-azure.vercel.app/)
 
 ## My process
 
